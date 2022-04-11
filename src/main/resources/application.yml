@@ -1,8 +1,6 @@
 spring:
   application:
     name: SWAGGER-HUB
-  jpa:
-    generate-ddl: true
     
 server:
   port: '9001'
