@@ -1,16 +1,4 @@
 spring:
   application:
-    name: SWAGGER-HUB
-    
-server:
-  port: '9001'
-  
-management:
-  endpoints:
-    web:
-      exposure:
-        include: refresh
-senior:
-  citizen: Jadoo
-junior:
-  citizen: Jaddi
+    name: libraryapp
+
