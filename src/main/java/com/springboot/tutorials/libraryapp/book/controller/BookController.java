@@ -84,7 +84,7 @@ public class BookController {
 		return "Service is Up";
 	}
 	
-	@GetMapping("/getBook/{name}")
+	@GetMapping("/getBookInfo/{name}")
 	public Book getBookByBookName(@Parameter(description = "Book Name", required = true)@PathVariable("name") String name) throws DataNotFoundException {
 		log.info("Inside getBookByBookName method of BookController");
 		return service.getBookByName(name);
