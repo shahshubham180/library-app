@@ -2,4 +2,7 @@ spring:
   cloud:
     config:
       enabled: 'true'
-      uri: https://config-server-12-factor-app.herokuapp.com
+      uri: http://localhost:9296
+      fail-fast: false
+      retry:
+        max-attempts: 5
