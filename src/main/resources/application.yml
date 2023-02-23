@@ -1,4 +1,17 @@
 spring:
   application:
     name: libraryapp
+    
+  datasource:
+    username: root
+    url: jdbc:mysql://localhost:3306/customerportallibrary
+    password: root
+  jpa:
+    generate-ddl: false  
+  
+management:
+  endpoints:
+    web:
+      exposure:
+        include: refresh
 
