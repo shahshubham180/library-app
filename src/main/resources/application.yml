@@ -4,7 +4,7 @@ spring:
     
   datasource:
     username: root
-    url: jdbc:mysql://localhost:3306/customerportallibrary
+    url: jdbc:mysql://mysqldb:3306/customerportallibrary
     password: root
   jpa:
     generate-ddl: true  
