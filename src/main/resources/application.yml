@@ -7,7 +7,10 @@ spring:
     url: jdbc:mysql://localhost:3306/customerportallibrary
     password: root
   jpa:
-    generate-ddl: false  
+    generate-ddl: true  
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQLDialect  
   
 management:
   endpoints:
